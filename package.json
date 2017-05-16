@@ -4,7 +4,7 @@
   "description": "Appends a bullet before string (to mimick lists in ASCII)",
   "main": "string.bullet.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec --watch"
+    "test": "mocha --reporter spec --watch"
   },
   "repository": {
     "type": "git",
