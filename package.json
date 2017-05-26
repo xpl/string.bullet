@@ -1,6 +1,6 @@
 {
   "name": "string.bullet",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Appends a bullet before string (to mimick lists in ASCII)",
   "main": "string.bullet.js",
   "scripts": {
