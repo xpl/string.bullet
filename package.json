@@ -15,7 +15,7 @@
     "bullet"
   ],
   "author": "Vitaly Gordon <rocket.mind@gmail.com>",
-  "license": "MIT",
+  "license": "Unlicense",
   "homepage": "https://github.com/xpl/string.bullet",
   "devDependencies": {
     "babel-preset-es2015": "^6.14.0",
