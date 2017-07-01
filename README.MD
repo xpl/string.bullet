@@ -2,10 +2,12 @@
 
 ```javascript
 bullet = require ('string.bullet')
-```
-```javascript
+
 bullet ('• ', 'foo\nbar\nbaz')
 ```
+
+Or:
+
 ```javascript
 bullet ('• ', ['foo', 'bar', 'baz'])
 ```
