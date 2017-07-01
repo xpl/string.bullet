@@ -1,8 +1,14 @@
-# Usage
+# string.bullet
 
+```bash
+npm install string.bullet
+```
 ```javascript
 const bullet = require ('string.bullet')
 ```
+
+Formatting a list item with `• ` as a bullet:
+
 ```javascript
 bullet ('• ', 'foo\nbar\nbaz')        // accepts either newline-separated strings...
 bullet ('• ', ['foo', 'bar', 'baz'])  // ...or arrays
@@ -13,7 +19,7 @@ bullet ('• ', ['foo', 'bar', 'baz'])  // ...or arrays
   baz
 ```
 
-Another example (humanized rendering of a JSON-like structure):
+Humanized rendering of a JSON-like structure:
 
 ```javascript
 const left  = '{' + '\t' + 'this_is_a_list: '
