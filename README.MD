@@ -1,23 +1,35 @@
 # Usage
 
 ```javascript
-bullet = require ('string.bullet')
-
-bullet ('• ', 'foo\nbar\nbaz')
+const bullet = require ('string.bullet')
 ```
 
-Or:
+Accepts either newline-separated strings or arrays, outputs a formatted string:
 
+```javascript
+bullet ('• ', 'foo\nbar\nbaz')
+```
 ```javascript
 bullet ('• ', ['foo', 'bar', 'baz'])
 ```
-
-Will output:
-
 ```
 • foo
   bar
   baz
+```
+
+Another example (humanized rendering of a JSON-like structure):
+
+```javascript
+const left  = '{' + '\t' + 'this_is_a_list: '
+    , right = '[foo,\n bar,\n baz]' + '\t' + '}'
+
+bullet (left, right)
+```
+```
+{    this_is_a_list: [foo,
+                      bar,
+                      baz]    }
 ```
 
 ## The problem
@@ -49,3 +61,8 @@ const { ansiEscapeCodes, printableCharacters } = require ('printable-characters'
 const indent = bullet.replace (ansiEscapeCodes, '')
                      .replace (printableCharacters, ' ')
 ```
+
+## Applications
+
+- [string.ify](https://github.com/xpl/string.ify) — a fancy pretty printer for JavaScript entities
+- [ololog](https://github.com/xpl/ololog) — a better `console.log` for the log-driven debugging junkies!
