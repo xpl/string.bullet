@@ -3,14 +3,9 @@
 ```javascript
 const bullet = require ('string.bullet')
 ```
-
-Accepts either newline-separated strings or arrays, outputs a formatted string:
-
 ```javascript
-bullet ('• ', 'foo\nbar\nbaz')
-```
-```javascript
-bullet ('• ', ['foo', 'bar', 'baz'])
+bullet ('• ', 'foo\nbar\nbaz')        // accepts either newline-separated strings...
+bullet ('• ', ['foo', 'bar', 'baz'])  // ...or arrays
 ```
 ```
 • foo
