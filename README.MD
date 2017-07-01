@@ -11,6 +11,8 @@ Formatting a list item with `• ` as a bullet:
 
 ```javascript
 bullet ('• ', 'foo\nbar\nbaz')        // accepts either newline-separated strings...
+```
+```javascript
 bullet ('• ', ['foo', 'bar', 'baz'])  // ...or arrays
 ```
 ```
