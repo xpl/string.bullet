@@ -18,7 +18,6 @@
   "license": "Unlicense",
   "homepage": "https://github.com/xpl/string.bullet",
   "dependencies": {
-    "printable-characters": "*"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.14.0",
