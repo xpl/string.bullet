@@ -1,5 +1,7 @@
 # string.bullet
 
+[![Build Status](https://travis-ci.org/xpl/string.bullet.svg?branch=master)](https://travis-ci.org/xpl/string.bullet) [![Coverage Status](https://coveralls.io/repos/github/xpl/string.bullet/badge.svg)](https://coveralls.io/github/xpl/string.bullet) [![npm](https://img.shields.io/npm/v/string.bullet.svg)](https://npmjs.com/package/string.bullet) [![dependencies Status](https://david-dm.org/xpl/string.bullet/status.svg)](https://david-dm.org/xpl/string.bullet)
+
 ```bash
 npm install string.bullet
 ```
@@ -10,10 +12,10 @@ const bullet = require ('string.bullet')
 Formatting a list item with `• ` as a bullet:
 
 ```javascript
-bullet ('• ', 'foo\nbar\nbaz')        // accepts either newline-separated strings...
+bullet ('• ', 'foo\nbar\nbaz') // returns bulleted string
 ```
 ```javascript
-bullet ('• ', ['foo', 'bar', 'baz'])  // ...or arrays
+bullet ('• ', ['foo', 'bar', 'baz'])  // ...or arrays (returning an array of resulting lines)
 ```
 ```
 • foo
