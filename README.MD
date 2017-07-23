@@ -1,6 +1,6 @@
 # string.bullet
 
-[![Build Status](https://travis-ci.org/xpl/string.bullet.svg?branch=master)](https://travis-ci.org/xpl/string.bullet) [![Coverage Status](https://coveralls.io/repos/github/xpl/string.bullet/badge.svg)](https://coveralls.io/github/xpl/string.bullet) [![npm](https://img.shields.io/npm/v/string.bullet.svg)](https://npmjs.com/package/string.bullet) [![dependencies Status](https://david-dm.org/xpl/string.bullet/status.svg)](https://david-dm.org/xpl/string.bullet)
+[![Build Status](https://travis-ci.org/xpl/string.bullet.svg?branch=master)](https://travis-ci.org/xpl/string.bullet) [![Coverage Status](https://coveralls.io/repos/github/xpl/string.bullet/badge.svg)](https://coveralls.io/github/xpl/string.bullet) [![npm](https://img.shields.io/npm/v/string.bullet.svg)](https://npmjs.com/package/string.bullet) [![dependencies Status](https://david-dm.org/xpl/string.bullet/status.svg)](https://david-dm.org/xpl/string.bullet) [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/xpl/string.bullet.svg)](https://scrutinizer-ci.com/g/xpl/string.bullet/?branch=master)
 
 ```bash
 npm install string.bullet
